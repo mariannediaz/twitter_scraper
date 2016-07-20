@@ -25,7 +25,7 @@ for page in range(1, NUM_PAGES+1):
              data['from_user'] = result['from_user']
              print data['from_user'], data['text']
              scraperwiki.sqlite.save(["id"], data) 
-      except:
+     except:
           print 'Oh dear, failed to scrape %s' % base_url
           
         
