@@ -10,7 +10,7 @@ import urllib2
 QUERY = 'lorenzo mendoza OR @lorenzomendozag'
 GEOINFO = '53.26521293124656,-9.063720703125,257km'
 RESULTS_PER_PAGE = '100'
-LANGUAGE = 'en'
+LANGUAGE = 'es-ES'
 NUM_PAGES = 15 
 
 for page in range(1, NUM_PAGES+1):
